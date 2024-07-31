@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "web-vitals": "^4.2.2"
+  },
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
