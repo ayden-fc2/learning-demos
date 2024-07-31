@@ -27,7 +27,7 @@ async def chat(websocket, path):
         # 调用OpenAI API生成响应
         client = OpenAI(
         # This is the default and can be omitted
-        api_key='sk-None-mbjuGSweixVcwybLJEGiT3BlbkFJfPfMAkCjHQEBXjJkh2l4'
+        api_key=''
         )
         response = client.chat.completions.create(
             model="gpt-3.5-turbo",
