@@ -1,7 +1,5 @@
-nginx 反向代理
+nginx
 
-istio 微服务治理
+istio
 
-vditor markdown工具
-
-docker 容器化工具
+docker
