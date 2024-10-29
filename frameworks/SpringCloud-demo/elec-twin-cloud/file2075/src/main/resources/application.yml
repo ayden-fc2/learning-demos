@@ -1,0 +1,31 @@
+server:
+  port: 2075
+
+spring:
+  application:
+    name: file2075
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://www.yym-free.com:3306/wz_gp?useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true&zeroDateTimeBehavior=CONVERT_TO_NULL&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Shanghai
+    username: wz_gp
+    password: 10708022
+    hikari:
+      maximum-pool-size: 15
+      minimum-idle: 5
+  servlet:
+    multipart:
+      max-file-size: 2GB
+      max-request-size: 2GB
+
+eureka:
+  instance:
+    instance-id: ${spring.application.name}
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:2072/eureka/ #Eureka??
+
+custom:
+  file-path: /home/fivecheers/data/wz_gp/
+  return-path: http://www.yym-free.com:1001/

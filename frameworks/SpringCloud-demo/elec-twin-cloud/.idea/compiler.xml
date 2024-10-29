@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="file2075" />
+        <module name="eureka2072" />
+        <module name="example2060" />
+        <module name="common" />
+        <module name="zuul2073" />
+        <module name="log2076" />
+        <module name="auth2074" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="8" />
+      <module name="twin-analyse-1083" target="8" />
+      <module name="twin-control-1082" target="8" />
+      <module name="twin-design-1081" target="8" />
+      <module name="twin-file-1090" target="8" />
+      <module name="twin-gateway-1073" target="8" />
+      <module name="twin-sign-1080" target="8" />
+      <module name="twin-simulate-1084" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="common" options="" />
+      <module name="demo" options="" />
+      <module name="eureka2072" options="" />
+      <module name="example2060" options="" />
+      <module name="file2075" options="" />
+      <module name="log2076" options="" />
+      <module name="twin-analyse-1083" options="" />
+      <module name="twin-control-1082" options="" />
+      <module name="twin-design-1081" options="" />
+      <module name="twin-file-1090" options="" />
+      <module name="twin-sign-1080" options="" />
+      <module name="twin-simulate-1084" options="" />
+      <module name="zuul2073" options="" />
+    </option>
+  </component>
+</project>
