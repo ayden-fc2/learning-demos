@@ -3,9 +3,11 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/hello-rust/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/runoob/til-fuc-demo/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/runoob/data-types/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/runoob/basic-usages/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/hello-rust/target" />
-      <excludeFolder url="file://$MODULE_DIR$/runoob/til-fuc-demo/target" />
+      <excludeFolder url="file://$MODULE_DIR$/runoob/data-types/target" />
+      <excludeFolder url="file://$MODULE_DIR$/runoob/basic-usages/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
